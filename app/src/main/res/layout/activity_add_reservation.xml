@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/hotell"
+    android:layout_height="match_parent"
+    tools:context=".AddReservation">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Ajouter une Réservation"
+        android:textColor="#024750"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.651"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/clientNom"
+        android:layout_width="348dp"
+        android:gravity="center"
+        android:layout_height="59dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/inputbackgroundd"
+        android:ems="10"
+        android:hint="@string/entrez_votre_nom"
+        android:inputType="textPersonName"
+        android:textColor="#000B0C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/hotelNom"
+        android:layout_width="348dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/inputbackgroundd"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Nom de l'hotel"
+        android:inputType="textPersonName"
+        android:textColor="#000B0C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/clientMail" />
+
+    <EditText
+        android:id="@+id/clientMail"
+        android:layout_width="348dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/inputbackgroundd"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/entre_votre_mail"
+        android:inputType="textEmailAddress"
+        android:textColor="#000B0C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/clientNom" />
+
+    <EditText
+        android:id="@+id/reservationDate"
+        android:layout_width="348dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/inputbackgroundd"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/date_reservation"
+        android:inputType="textPersonName"
+        android:textColor="#000B0C"
+        android:textSize="20sp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/personneNumber" />
+
+    <EditText
+        android:id="@+id/personneNumber"
+        android:layout_width="348dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/inputbackgroundd"
+        android:ems="10"
+        android:hint="@string/nombre_personne"
+        android:inputType="text"
+        android:textColor="#000B0C"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/hotelNom" />
+
+    <Button
+        android:id="@+id/reserverButtn"
+        android:layout_width="261dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/buttonbg"
+        android:text="Réserver"
+        android:textColor="#022327"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/reservationDate" />
+
+    <Button
+        android:id="@+id/showReservation"
+        android:layout_width="338dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/buttonbg"
+        android:text="List des Réservations"
+        android:textColor="#022327"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/reserverButtn"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="@+id/reserverButtn"
+        app:layout_constraintTop_toBottomOf="@+id/reserverButtn" />
+
+    <EditText
+        android:id="@+id/nbrJour"
+        android:layout_width="348dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/inputbackgroundd"
+        android:ems="10"
+        android:hint="Nombre jours"
+        android:gravity="center"
+        android:inputType="text"
+        android:textColor="#000B0C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/reservationDate" />
+</androidx.constraintlayout.widget.ConstraintLayout>

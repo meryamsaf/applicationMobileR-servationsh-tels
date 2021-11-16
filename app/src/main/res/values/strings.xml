@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BookingApplicationS4Project</string>
+    <string name="Enter" />
+    <string name="entrez_votre_nom">Entrez votre nom</string>
+    <string name="entre_votre_mail">Entrez votre e-mail</string>
+    <string name="mot_de_passe">Entrez un mot de passe</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="hotel_name">Hotel Name</string>
+    <string name="hotel_location">Hotel Location</string>
+    <string name="hotel_city">Hotel  City</string>
+
+    <string name="details_hotel">Details</string>
+    <string name="Add_a_photo">Add a photo</string>
+    <string name="add_reservation">Add reservation</string>
+    <string name="title_activity_client_profile">ClientProfile</string>
+
+
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="title_activity_user_profile">UserProfile</string>
+    <string name="title_activity_client_profile_actvity">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nom_de_hotel">Nom de l\'hotel</string>
+    <string name="nom_hotel" />
+    <string name="nom_hotell">Nom d\'hotel</string>
+    <string name="nombre_personne">Nomber de personnes</string>
+    <string name="date_reservation">Date de réservation</string>
+</resources>

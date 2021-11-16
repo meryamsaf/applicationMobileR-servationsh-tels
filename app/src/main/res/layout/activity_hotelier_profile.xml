@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hotell"
+    tools:context=".HotelierProfile">
+
+    <Button
+        android:id="@+id/hotelAdd"
+        android:layout_width="348dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/background_color"
+        android:gravity="center"
+        android:text="Ajouter un Hotel"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hotelReservations"
+        android:layout_width="348dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/background_color"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:text=" Réservations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hotelAdd" />
+
+    <Button
+        android:id="@+id/sedeconnecterHotelier"
+        android:layout_width="348dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="44dp"
+        android:text="Se Déconnecter"
+        android:background="@drawable/background_color"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hotelReservations" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:textSize="25dp"
+    android:text="Update Details"
+    android:background="#032A4A"
+    android:gravity="center"
+    android:textStyle="bold|italic"
+    android:textColor="@color/colorWhite"
+    />
+
+    <EditText
+        android:id="@+id/updateHotel"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/inputbackgroundd"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Hotel"
+        android:inputType="textPersonName"
+        android:textColor="#000B0C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/updateDate"
+
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/inputbackgroundd"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Date "
+        android:inputType="textPersonName"
+        android:textColor="#000B0C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/updateNbrJour"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/inputbackgroundd"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Nombre jour"
+        android:inputType="textPersonName"
+        android:textColor="#000B0C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/buttonbg"
+        android:text="Modifier"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:textColor="#022327" />
+
+</LinearLayout>

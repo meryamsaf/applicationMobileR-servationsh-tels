@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:background="#FFFFFF"
+    android:layout_margin="15dp"
+
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/single_view_image_Hotel"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/single_view_nomHotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="192dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="HotelName"
+        android:textColor="#666666"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/single_view_villeHotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/single_view_nomHotel"
+
+        android:layout_marginTop="2dp"
+       android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="HotelCity"
+       android:textColor="#666666"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>

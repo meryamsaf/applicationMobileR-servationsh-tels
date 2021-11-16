@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1095754372880",
+    "project_id": "bookingapplications4project",
+    "storage_bucket": "bookingapplications4project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095754372880:android:a579ed0ccb558df6097795",
+        "android_client_info": {
+          "package_name": "androidapp.meryam.bookingapplications4project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095754372880-os8o4nakff2btch6s35tfcjvkfro8li5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKbfIvM_PnLYVUq3eN1XV7OJGN-MLOdVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095754372880-os8o4nakff2btch6s35tfcjvkfro8li5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
